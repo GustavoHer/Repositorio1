@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: darkblue;
+}
+
+.principal{
+    height: 800px;
+    width: 800px;
+    background-color: darkslategray;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#datos{
+    height: 150px;
+    width: 300px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+#prepa{
+    height: 110px;
+    width: 190px;
+    background-color:cornflowerblue;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#hobbies{
+    height: 110 px;
+    width: 180px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#carrera{
+    height: 150px;
+    width: 280px;
+    background-color:cornflowerblue;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+    
+}
+
+#materia{
+    height: 180px;
+    width: 330px;
+    background-color: cornflowerblue;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+#nomegusta{
+    height: 160px;
+    width: 330px;
+    background-color: cornflowerblue;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+#carrera2{
+    height: 180px;
+    width: 350px;
+    background-color: cornflowerblue;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+h1{
+    font-size: 15px;
+    color:black;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
