@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Navegacion{
+    background: black;
+    width: 700px;
+    margin: 80px auto;
+}
+.Navegacion ul{
+    list-style: none;
+}
+.Menu > li{
+    display: inline-block;
+}
+.Menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Arial Narrow';
+    text-decoration: none;
+}
