@@ -24,3 +24,6 @@ function hacer_hover(){
 function salir_hover(){
     alert("Está lejos de ingresar");
 }
+function cargar_pagina(){
+    alert("Se ha cargado la pagina");
+}
