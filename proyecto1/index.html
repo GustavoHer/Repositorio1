@@ -4,7 +4,7 @@
     	<title>Bibliografia/Proyecto 1</title>
     	<link href="css/styles.css" rel="stylesheet" type="text/css">
     	<meta name="description" content="Proyecto 1 de programación web">
-	<meta name="keywords" content="HTML,Javascript,Login,Universidad del caribe,Unicaribe,Menu de opciones">
+		<meta name="keywords" content="HTML,CSS,Javascript,Login,Universidad del caribe,Unicaribe,Menu de opciones">
     	<script type="text/javascript">
     	function validarEmail(elemento){
         	if(elemento.value!==''){
@@ -35,7 +35,7 @@
             	<ul class="Menu">
                 	<li><a href="nosotros.html">Nosotros</a></li>
                 	<li><a href="contactos.html">Contactos</a></li>
-                	<li><a href="">Galería de imágenes</a></li>
+                	<li><a href="galeria.html">Galería de imágenes</a></li>
                 	<li><a href="materias.html">Materias</a></li>
                 	<li><a href="gmaps.html">Google Maps</a></li>
                 	<li><a href="descargas.html">Descargas</a></li>
@@ -43,7 +43,9 @@
         	</nav>
     	</header>
     	<form action="">
-        	<h1>Login</h1>
+    		<div class="h1v1">
+    			<h1>Login</h1>
+    		</div>
         	<input type="text" placeholder="Usuario" name="usuario" onblur="validarEmail(this)" onkeyup="validaEmail(this)">
         	<input type="password" placeholder="Clave" name="clave">
         	<input type="submit" value="Ingresar">
