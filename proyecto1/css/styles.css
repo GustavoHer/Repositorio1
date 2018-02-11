@@ -24,6 +24,13 @@ form{
     margin-bottom:10px;
 }
 
+.h1v3{
+    text-align:center;
+    font-family:'cursive';
+    font-size:20px;
+    margin:20px;
+}
+
 .h2v1{
     font-family:"Helvetica";
     text-align:center;
@@ -64,7 +71,7 @@ input.error{
     padding:15px 20px;
     color:white;
     font-family:'Arial Narrow';
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .naranja{
@@ -75,9 +82,19 @@ input.error{
     background-color:#33D8FF;
 }
 
+.rojo{
+    background-color:#FF4200;
+}
+
 .tamimg{
     width:350px;
     height:350px;
+}
+
+#seccion0{
+    background-color:#B159FF;
+    border:2px solid black;
+    margin:0px 50px;
 }
 
 #seccion1{
@@ -132,16 +149,14 @@ th,td{
 }
 
 #seccion5{
-    background-color:#FFA9A9; 
+    background-color:#E4FF33; 
     margin:auto;
     margin-top:25px;
     border:2px solid black;
     width:700px;
     height:400px;
 }
-body{
-    background: #33D8FF;
-}
+
 .v3{
     width: 300px;
     text-align: center;
@@ -151,33 +166,27 @@ body{
     font-family: 'Trebuchet MS';
 }
 
-#imagen1{
-    margin:-200px 50px 0px 0px;
+#imagen{
+    float:left;
+    margin:50px 50px 0px 50px;
 }
 
-#imagen2{
-    float: right;
-    margin: -500px 0px 0px 0px;
-}
-#imagen3{
-    margin: -200px 0px 0px 400px;
-}
- #imagen4{
-     margin: -50px 0px 0px 0px;
- }
- #imagen5{
-     float: right;
-     margin: -450px 0px 0px 0px;
- }
-
-.body2{
-    background: #33D8FF;
-}
-#iphone{
-    margin: 200px 0px 0px 550px;
+#seccion6{
+    background-color:#FF8300;
+    border:2px solid black;
+    width:1350px;
+    height:1400px;
+    margin:auto;
+    margin-bottom:25px;
 }
 
-#log{
-    font-family: 'cursive';
-    font-size: 20px;
+#seccion7{
+    text-align:center;
+    background-color:#FFFFFF;
+    border:2px solid black;
+    width:175px;
+    height:20px;
+    margin:auto;
+    margin-top:10px;
 }
+
