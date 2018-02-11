@@ -139,3 +139,45 @@ th,td{
     width:700px;
     height:400px;
 }
+body{
+    background: #33D8FF;
+}
+.v3{
+    width: 300px;
+    text-align: center;
+    margin: 200px -0px 0px 400px;
+    background: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+#imagen1{
+    margin:-200px 50px 0px 0px;
+}
+
+#imagen2{
+    float: right;
+    margin: -500px 0px 0px 0px;
+}
+#imagen3{
+    margin: -200px 0px 0px 400px;
+}
+ #imagen4{
+     margin: -50px 0px 0px 0px;
+ }
+ #imagen5{
+     float: right;
+     margin: -450px 0px 0px 0px;
+ }
+
+.body2{
+    background: #33D8FF;
+}
+#iphone{
+    margin: 200px 0px 0px 550px;
+}
+
+#log{
+    font-family: 'cursive';
+    font-size: 20px;
+}
