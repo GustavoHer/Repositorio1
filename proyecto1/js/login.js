@@ -18,3 +18,6 @@ function validar(){
     }
     return user;
 }
+function hacer_hover(){
+    alert("Está por pulsar el botón");
+}
