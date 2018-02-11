@@ -21,3 +21,72 @@
     font-family: 'Arial Narrow';
     text-decoration: none;
 }
+
+.naranja{
+    background-color:#FFD933;
+}
+
+.cian{
+    background-color:#33D8FF;
+}
+
+#titulos{
+    text-align:center;
+    margin-top:30px;
+}
+
+#seccion1{
+    border: 2px solid black;
+    float:left;
+    width:500px;
+    height:300px;
+    margin-top:40px;
+    margin-left:175px;
+}
+
+#seccion2{
+    border: 2px solid black;
+    margin-top:25px;
+    margin-left: 365px;
+    margin-right: 365px;
+}
+
+#seccion3{
+    background-color:#E4FF33;
+    float:left;
+    border: 2px solid black;
+    width:700px;
+    height:1400px;
+    margin:25px;
+}
+
+#seccion4{
+     margin:10px;
+     text-align:center;
+}
+
+#seccion5{
+    margin:10px;
+}
+
+.tamimg{
+    width:350px;
+    height:350px;
+}
+
+#seccion6{
+    background-color:#FFEEB6; 
+    margin:auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    width:700px;
+    height:400px;
+}
+#seccion7{
+    text-align: center;
+    margin:10px;
+}
+
+.negritas{
+    font-weight:bold;
+}
