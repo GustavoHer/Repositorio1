@@ -111,3 +111,6 @@ input{
 input[type="submit"]{
     background: #FFB940;
 }
+input.error{
+    background: red;
+}
