@@ -21,3 +21,6 @@ function validar(){
 function hacer_hover(){
     alert("Está por pulsar el botón");
 }
+function salir_hover(){
+    alert("Está lejos de ingresar");
+}
