@@ -27,3 +27,7 @@ function salir_hover(){
 function cargar_pagina(){
     alert("BIENVENIDO A NUESTRA PÁGINA");
 }
+var x=0;
+function move(){
+    document.getElementById("mouse").innerHTML= x++;
+}
