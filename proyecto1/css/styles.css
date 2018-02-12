@@ -20,8 +20,7 @@ form{
     text-align:center;
     font-family:'Calibri light';
     font-size:40px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin:10px 0px 10px 0px;
 }
 
 .h1v3{
@@ -92,12 +91,17 @@ input.error{
 }
 
 #seccion0{
-    background-color:#B159FF;
-    border:2px solid black;
-    margin:0px 50px;
+    font-family:'arial';
+    margin:0px 0px 10px 100px;
 }
 
 #seccion1{
+    background-color:#B159FF;
+    border:2px solid black;
+    margin:0px 100px 0px 100px;
+}
+
+#seccion2{
     float:left;
     font-family:'arial';
     width:500px;
@@ -127,14 +131,14 @@ th,td{
     background-color:#51F640;
 }
 
-#seccion2{
+#seccion3{
     border:2px solid black;
     margin-top:25px;
     margin-left:365px;
     margin-right:365px;
 }
 
-#seccion3{
+#seccion4{
     background-color:#E4FF33;
     float:left;
     border:2px solid black;
@@ -143,12 +147,12 @@ th,td{
     margin:25px;
 }
 
-#seccion4{
+#seccion5{
     font-family:'arial';
     margin:10px;
 }
 
-#seccion5{
+#seccion6{
     background-color:#E4FF33; 
     margin:auto;
     margin-top:25px;
@@ -171,7 +175,11 @@ th,td{
     margin:50px 50px 0px 50px;
 }
 
-#seccion6{
+#imagen2{
+    margin-bottom:20px;
+}
+
+#seccion7{
     background-color:#FF8300;
     border:2px solid black;
     width:1350px;
@@ -180,7 +188,7 @@ th,td{
     margin-bottom:25px;
 }
 
-#seccion7{
+#seccion8{
     text-align:center;
     background-color:#FFFFFF;
     border:2px solid black;
@@ -189,4 +197,3 @@ th,td{
     margin:auto;
     margin-top:10px;
 }
-
