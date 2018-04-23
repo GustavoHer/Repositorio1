@@ -121,12 +121,6 @@ table{
 th,td{
     padding:10px;
 }
-
-.tablep{
-    width:100%;    
-    background-color:#C1F10B;
-}
-
 .tablep th{
     background-color:#51F640;
 }

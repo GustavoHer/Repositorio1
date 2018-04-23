@@ -1,7 +1,9 @@
 <html>
    <head>
-           <title>Bibliografía</title>
+           <title>Mi Pagina Web</title>
            <link href="css/styles.css" rel="stylesheet" type="text/css">
+           <meta name="description" content="Mi Pagina Web">
+		   <meta name="keywords" content="HTML,CSS,Javascript,Login,Universidad del caribe,Unicaribe,Menu de opciones">    
    </head>
     <body>
             <header>
@@ -15,8 +17,10 @@
                             <li><a href="#Hobbies">Hobbies</a></li><br>
                             <li><a href="#Materias">Materias</a></li><br>
                             <li><a href="#No">Cosas que no me gustan</a></li><br>
+                            <li><a href="login.php">Login</a></li>
                     </ul>
             </nav>
+            
             <section>
                         <article id="Datos">
                                 <a name="Datos"></a>
