@@ -1,18 +1,17 @@
 <?php
-    $user='alumno';
-    $pass='160300098';
-    $form_user=$_POST['usuario'];
-    $form_pass=$_POST['contraseña'];
-    if($user==$form_user){
-        if($pass==$form_pass){
-            echo 'Inicio de sesión correcto
-                  <a href="./">Cerrar Sesión</a>';
-        }else{
-            echo 'Usuario o contraseña incorrectos
-                  <a href="./">Intentar nuevamente</a>';
-        }
-    }else{
-           echo 'Usuario o contraseña incorrectos
-                  <a href="./">Intentar nuevamente</a>';
-    }
+     $user=$_POST['usuario'];
+     $pass=$_POST['contraseña'];
+     $conexion= mysqli_connect("fdb21.awardspace.net", "2701974_web", "gustavo98", "2701974_web");
+     $consulta="SELECT * FROM Usuarios where correo='$user' and passw='$pass'";
+     $resultado=mysqli_query($conexion, $consulta);
+     $valor=mysqli_num_rows($resultado);
+     if($valor>0){
+             echo "Sesión iniciada correctamente: bienvenido $user";
+     }else{
+             echo "Error en la autenticanción";
+     }
+     mysqli_free_result($resultado);
+     mysqli_close($conexion);
+     
+   
 ?>
